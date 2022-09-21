@@ -2,16 +2,17 @@
 <html>
   <head>
     <title>Personal blog</title>
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <!-- header containing the nav -->
     <header>
-      <nav>
+      <nav class="post-mainmenu">
         <ul>
-          <li>Home</li>
-          <li>Cetegories</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Cetegories</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -19,10 +20,14 @@
     <!-- Posts  -->
     <main>
       <h1>Posts!</h1>
-      <article>
-        <!-- <img src="https://source.unsplash.com/random/200x200" alt="Post-img"> -->
-        <h2>Title of post</h2>
-        <h3>10/20/2202 Author [Category 1]</h3>
+      <article class="post-box">
+        <img src="https://source.unsplash.com/random/300x300" alt="Post-img">
+        <h3>Title of post</h2>
+        <div>
+          <span>10/20/2202</span>
+          <span>Author</span>
+          <span>[Category 1]</span>
+        </div>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque,
           ducimus.

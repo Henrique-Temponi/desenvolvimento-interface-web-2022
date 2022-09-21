@@ -1,0 +1,72 @@
+header {
+    height: 80px;
+    border-bottom: solid 1px lightgray;
+}
+
+main {
+    width: 70%;
+    float: left;
+    background-color: lightgoldenrodyellow;
+}
+
+aside {
+    float: left;
+    width: 30%;
+    background-color: lightgray;
+}
+
+.post-mainmenu {
+    right: 0px;
+    float: right;
+    margin: 10px;
+}
+
+.post-mainmenu ul {
+    list-style-type: none;
+}
+
+.post-mainmenu ul li {
+    display: inline-block;
+}
+
+.post-mainmenu ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    background-color: lightblue;
+}
+
+.post-mainmenu ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.post-box {
+    padding: 10px 10px;
+    clear: both;
+}
+
+.post-box img {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    width: 70px;
+}
+
+.post-box h3 {
+    color: darkred;
+    font-size: 60%;
+    margin-bottom: 10px;
+}
+
+.post-box p {
+    font-size: 80%;
+}
+
+.post-box span:nth-child(3) {
+    background-color: lightskyblue;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 3px;
+}
